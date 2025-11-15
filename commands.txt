@@ -1,0 +1,18 @@
+cd training
+pip install -r requirements.txt
+python train.py
+cd ..
+cd deployment
+pip install numpy scikit-learn --target .
+
+Instructions:
+move the .pkl file to deployment folder
+zip all files, (not the deployment folder, but select all files)
+deploy the zip to lambda
+create lambda function
+Postman request:
+- URL https://your-lambda-id.lambda-url.aws-region.on.aws/
+- BODY
+{
+  "INPUT_KEY": 300
+}
