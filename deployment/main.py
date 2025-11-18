@@ -4,8 +4,8 @@ import pandas as pd
 from fastapi import FastAPI, Form, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 
-INPUT_KEY = "Temperature (°C)"
-OUTPUT_KEY = "Sales ($)"
+INPUT_KEY = "Temperature"
+OUTPUT_KEY = "Ice Cream Profits"
 
 # Load model once at startup
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "model.pkl")

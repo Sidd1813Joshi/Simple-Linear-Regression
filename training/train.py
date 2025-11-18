@@ -6,8 +6,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 
-FEATURE_COL = "Temperature (°C)"
-TARGET_COL = "Sales ($)"
+FEATURE_COL = "Temperature"
+TARGET_COL = "Ice Cream Profits"
 
 # Load data
 df = pd.read_csv("data.csv")
