@@ -20,11 +20,17 @@ It predicts **Ice Cream Profits** based on **Temperature** using **Simple Linear
 ## Project Structure
 
 ├── main.py # FastAPI app + Web UI + API routes
+
 ├── train.py # Model training script
+
 ├── model.pkl # Trained Linear Regression model
+
 ├── data.csv # Dataset used for training
+
 ├── scatter_plot.png # Saved plot of regression results
+
 ├── Dockerfile # Docker configuration
+
 └── README.md # Project documentation
 
 ## This is the dataset I used from kaggle
