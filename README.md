@@ -11,6 +11,7 @@ It predicts **Ice Cream Profits** based on **Temperature** using **Simple Linear
 -  **Simple Linear Regression** model (`model.pkl`)  
 -  Data visualization (`scatter_plot.png`)  
 -  **FastAPI** backend for real-time predictions  
+-  Web UI built using pure HTML & CSS
 -  `/predict` JSON API endpoint  
 -  **Dockerized** for easy deployment  
 -  Modular structure (`train.py`, `main.py`, `Dockerfile`)  
